@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SnapshotTestingSwiftUI
+
+  Created by Vadim Bulavin on 4/27/20.
+  Copyright © 2020 Vadim Bulavin. All rights reserved.
+*/
+
+"common.button.send" = "Send";
