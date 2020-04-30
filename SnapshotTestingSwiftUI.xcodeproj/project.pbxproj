@@ -14,14 +14,14 @@
 		8873D8E0244F6C820012C7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8873D8DF244F6C820012C7B1 /* Assets.xcassets */; };
 		8873D8E3244F6C820012C7B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8873D8E2244F6C820012C7B1 /* Preview Assets.xcassets */; };
 		8873D8E6244F6C820012C7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8873D8E4244F6C820012C7B1 /* LaunchScreen.storyboard */; };
-		887844E8245711A800F99677 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844E7245711A800F99677 /* PlayButton.swift */; };
+		887844E8245711A800F99677 /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844E7245711A800F99677 /* SendButton.swift */; };
 		887844EC24571A7700F99677 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 887844EE24571A7700F99677 /* Localizable.strings */; };
 		887844F3245803D000F99677 /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844F2245803D000F99677 /* Previews.swift */; };
 		887844F52458049700F99677 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844F42458049700F99677 /* LandmarkRow.swift */; };
 		887844F9245805E300F99677 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844F8245805E300F99677 /* Landmark.swift */; };
 		887844FB24580E7C00F99677 /* LandmarkRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844FA24580E7C00F99677 /* LandmarkRowTests.swift */; };
 		887844FD2458125000F99677 /* SnapshotTesting+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844FC2458125000F99677 /* SnapshotTesting+SwiftUI.swift */; };
-		887844FF2458130500F99677 /* PreviewDevice+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844FE2458130500F99677 /* PreviewDevice+Ext.swift */; };
+		88784531245961D900F99677 /* SendButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88784530245961D900F99677 /* SendButtonTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		8873D8E7244F6C820012C7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8873D8EC244F6C820012C7B1 /* SnapshotTestingSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTestingSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8873D8F2244F6C820012C7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		887844E7245711A800F99677 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		887844E7245711A800F99677 /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
 		887844ED24571A7700F99677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		887844EF24571AB000F99677 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		887844F2245803D000F99677 /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		887844F8245805E300F99677 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		887844FA24580E7C00F99677 /* LandmarkRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRowTests.swift; sourceTree = "<group>"; };
 		887844FC2458125000F99677 /* SnapshotTesting+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnapshotTesting+SwiftUI.swift"; sourceTree = "<group>"; };
-		887844FE2458130500F99677 /* PreviewDevice+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewDevice+Ext.swift"; sourceTree = "<group>"; };
+		88784530245961D900F99677 /* SendButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButtonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			children = (
 				88F9E00C24533BFF0062C717 /* App */,
 				8873D8DD244F6C810012C7B1 /* ContentView.swift */,
-				887844E7245711A800F99677 /* PlayButton.swift */,
+				887844E7245711A800F99677 /* SendButton.swift */,
 				887844F42458049700F99677 /* LandmarkRow.swift */,
 				887844F8245805E300F99677 /* Landmark.swift */,
 				887844F2245803D000F99677 /* Previews.swift */,
@@ -121,19 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				887844FA24580E7C00F99677 /* LandmarkRowTests.swift */,
-				8878450024581B4E00F99677 /* Helpers */,
+				88784530245961D900F99677 /* SendButtonTests.swift */,
+				887844FC2458125000F99677 /* SnapshotTesting+SwiftUI.swift */,
 				8873D8F2244F6C820012C7B1 /* Info.plist */,
 			);
 			path = SnapshotTestingSwiftUITests;
-			sourceTree = "<group>";
-		};
-		8878450024581B4E00F99677 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				887844FC2458125000F99677 /* SnapshotTesting+SwiftUI.swift */,
-				887844FE2458130500F99677 /* PreviewDevice+Ext.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		88F9E00B24533BF20062C717 /* SupportingFiles */ = {
@@ -266,7 +258,7 @@
 			files = (
 				887844F9245805E300F99677 /* Landmark.swift in Sources */,
 				8873D8DA244F6C810012C7B1 /* AppDelegate.swift in Sources */,
-				887844E8245711A800F99677 /* PlayButton.swift in Sources */,
+				887844E8245711A800F99677 /* SendButton.swift in Sources */,
 				887844F52458049700F99677 /* LandmarkRow.swift in Sources */,
 				8873D8DC244F6C810012C7B1 /* SceneDelegate.swift in Sources */,
 				887844F3245803D000F99677 /* Previews.swift in Sources */,
@@ -279,7 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				887844FD2458125000F99677 /* SnapshotTesting+SwiftUI.swift in Sources */,
-				887844FF2458130500F99677 /* PreviewDevice+Ext.swift in Sources */,
+				88784531245961D900F99677 /* SendButtonTests.swift in Sources */,
 				887844FB24580E7C00F99677 /* LandmarkRowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

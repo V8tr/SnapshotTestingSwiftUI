@@ -14,57 +14,20 @@ import SwiftUI
 private let referenceSize = CGSize(width: 300, height: 70)
 
 class LandmarkRowTests: XCTestCase {
+    
+    let landmark = Landmark(name: "Turtle Rock", imageName: "turtlerock", isFavorite: false)
+    let favoriteLandmark = Landmark(name: "Turtle Rock", imageName: "turtlerock", isFavorite: true)
 
-    func testRenderLandmarkContent() {
+    func testRenderLandmark() {
         assertSnapshot(
-            matching: LandmarkRow(landmark: .fixture()).referenceFrame(),
+            matching: LandmarkRow(landmark: landmark).referenceFrame(),
             as: .image(size: referenceSize)
         )
     }
 
     func testRenderFavorite() {
         assertSnapshot(
-            matching: LandmarkRow(landmark: .fixture(isFavorite: true)).referenceFrame(),
-            as: .image(size: referenceSize)
-        )
-    }
-    
-    func testLocalization() {
-        let sut = LocalePreview { LandmarkRow(landmark: .fixture()) }
-            .previewDevice(.iPhoneX)
-        
-        assertSnapshot(
-            matching: sut,
-            as: .image(on: .iPhoneX)
-        )
-    }
-    
-    func testDarkTheme() {
-        let sut = DarkThemePreview { LandmarkRow(landmark: .fixture()) }
-            .referenceFrame()
-        
-        assertSnapshot(
-            matching: sut,
-            as: .image(size: referenceSize)
-        )
-    }
-    
-    func testRightToLeft() {
-        let sut = RightToLeftPreview { LandmarkRow(landmark: .fixture()) }
-            .referenceFrame()
-        
-        assertSnapshot(
-            matching: sut,
-            as: .image(size: referenceSize)
-        )
-    }
-    
-    func testLargeTitleFont() {
-        let sut = FontPreview(.largeTitle) { LandmarkRow(landmark: .fixture()) }
-            .referenceFrame()
-        
-        assertSnapshot(
-            matching: sut,
+            matching: LandmarkRow(landmark: favoriteLandmark).referenceFrame(),
             as: .image(size: referenceSize)
         )
     }

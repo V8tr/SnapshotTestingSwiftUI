@@ -25,22 +25,8 @@ struct SendButton: View {
 
 struct SendButton_Preview: PreviewProvider {
     static var previews: some View {
-        Group {
-            LocalePreview {
-                SendButton()
-            }
-            
-            DarkThemePreview {
-                SendButton()
-            }
-            
-            RightToLeftPreview {
-                SendButton()
-            }
-            
-            ContentSizeCategoryPreview(.extraLarge) {
-                SendButton()
-            }
-        }
+        SendButton()
+            .previewLayout(PreviewLayout.sizeThatFits)
+            .padding()
     }
 }

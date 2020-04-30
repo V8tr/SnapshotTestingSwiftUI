@@ -34,7 +34,7 @@ struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             DarkThemePreview {
-                LandmarkRow(landmark: .fixture())
+                LandmarkRow(landmark: .fixture(name: "123123213 12asd as das das da asd as das da sd asd asd as das das das sd as d dsa aljsd askd ahskd gahsdg asgjasg djg sahdg ahsg dahsg dgsa gdha gdha gsh gahs dgash dgashdg ajhsg hjas gdhjasg jas"))
             }
             
             RightToLeftPreview {
