@@ -10,13 +10,12 @@ A sample project showing how to snapshot test SwiftUI views using [SnapshotTesti
 
 1. Testing appearance under different environment configurations:
 
-<p align="center">
-  <img src="https://github.com/V8tr/SnapshotTestingSwiftUI/blob/master/send.png" alt="Snapshot testing SwiftUI views on iOS with Swift and Xcode"/>
-</p>
-
+| | |
+:-------------------------:|:-------------------------:
+| ![Snapshot testing SwiftUI views on iOS with Swift and Xcode](https://github.com/V8tr/SnapshotTestingSwiftUI/blob/master/send.png) | ![Snapshot testing SwiftUI views on iOS with Swift and Xcode](https://github.com/V8tr/SnapshotTestingSwiftUI/blob/master/send-ru.png) |
 
 2. Testing presentation logic:
 
-<p align="center">
-  <img src="https://github.com/V8tr/SnapshotTestingSwiftUI/blob/master/landmark.png" alt="Snapshot testing SwiftUI views on iOS with Swift and Xcode"/>
-</p>
+| | |
+:-------------------------:|:-------------------------:
+| ![Snapshot testing SwiftUI views on iOS with Swift and Xcode](https://github.com/V8tr/SnapshotTestingSwiftUI/blob/master/landmark.png) | ![Snapshot testing SwiftUI views on iOS with Swift and Xcode](https://github.com/V8tr/SnapshotTestingSwiftUI/blob/master/landmark-fav.png) |
