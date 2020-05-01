@@ -15,13 +15,3 @@ struct Landmark {
     var imageName: String
     var isFavorite: Bool
 }
-
-extension Landmark {
-    static func fixture(
-        name: String = "Turtle Rock",
-        imageName: String = "turtlerock",
-        isFavorite: Bool = false
-    ) -> Landmark {
-        Landmark(name: name, imageName: imageName, isFavorite: isFavorite)
-    }
-}

@@ -16,7 +16,6 @@
 		8873D8E6244F6C820012C7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8873D8E4244F6C820012C7B1 /* LaunchScreen.storyboard */; };
 		887844E8245711A800F99677 /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844E7245711A800F99677 /* SendButton.swift */; };
 		887844EC24571A7700F99677 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 887844EE24571A7700F99677 /* Localizable.strings */; };
-		887844F3245803D000F99677 /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844F2245803D000F99677 /* Previews.swift */; };
 		887844F52458049700F99677 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844F42458049700F99677 /* LandmarkRow.swift */; };
 		887844F9245805E300F99677 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844F8245805E300F99677 /* Landmark.swift */; };
 		887844FB24580E7C00F99677 /* LandmarkRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887844FA24580E7C00F99677 /* LandmarkRowTests.swift */; };
@@ -48,7 +47,6 @@
 		887844E7245711A800F99677 /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
 		887844ED24571A7700F99677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		887844EF24571AB000F99677 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		887844F2245803D000F99677 /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
 		887844F42458049700F99677 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		887844F8245805E300F99677 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		887844FA24580E7C00F99677 /* LandmarkRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRowTests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				887844E7245711A800F99677 /* SendButton.swift */,
 				887844F42458049700F99677 /* LandmarkRow.swift */,
 				887844F8245805E300F99677 /* Landmark.swift */,
-				887844F2245803D000F99677 /* Previews.swift */,
 				887844EE24571A7700F99677 /* Localizable.strings */,
 				88F9E00B24533BF20062C717 /* SupportingFiles */,
 				8873D8E1244F6C820012C7B1 /* Preview Content */,
@@ -261,7 +258,6 @@
 				887844E8245711A800F99677 /* SendButton.swift in Sources */,
 				887844F52458049700F99677 /* LandmarkRow.swift in Sources */,
 				8873D8DC244F6C810012C7B1 /* SceneDelegate.swift in Sources */,
-				887844F3245803D000F99677 /* Previews.swift in Sources */,
 				8873D8DE244F6C810012C7B1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
