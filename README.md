@@ -6,7 +6,7 @@
 
 # SnapshotTestingSwiftUI
 
-A sample project showing how to snapshot test SwiftUI views using [SnapshotTesting](https://github.com/pointfreeco/swift-snapshot-testing).
+A sample project showing how to snapshot test SwiftUI views using [SnapshotTesting](https://github.com/pointfreeco/swift-snapshot-testing). It covers the following cases:
 
 1. Testing appearance under different environment configurations:
 
